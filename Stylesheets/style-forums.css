@@ -1,0 +1,130 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container-forums{
+    margin-top: 100px;
+    min-height: 400px;
+    margin-left: 200px;
+    border: 2px solid black;
+    width: 70%;
+    height: 1400px;
+}
+
+.container-head{
+    margin: 10px 10px;
+    /* border: 2px solid black; */
+    height: 60px;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+.container-details{
+    margin: 10px 10px;
+    /* border: 2px solid black; */
+    height: 200px;
+}
+
+.container-details p{
+    font-size: 18px;
+}
+
+#btn-rules{
+    height: 40px;
+    width: 120px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-style: outset;
+    background: #0066A2;
+    color: white;
+    font-size: 15px;
+    text-shadow: none;
+}
+
+.forum-threads{
+    margin: 60px 10px;
+    /* border: 2px solid black; */
+    height: 600px;
+}
+
+.forum-threads h3{
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+
+.question-card{
+    margin: 20px 15px;
+    /* border: 2px solid black; */
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.user-pic{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 80px;
+    margin-top: 1px;
+}
+
+.user-question{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 80%;
+}
+
+.user-question h4{
+    margin: 20px 10px 0px 0px;
+    font-size: 20px;
+}
+
+.thread-form{
+    margin-top: 80px;
+    /* border: 2px solid black; */
+    height: 350px;
+}
+
+.thread-form h2{
+    font-size: 2rem;
+    margin: 15px;
+}
+
+.container-form{
+    margin: 15px 15px;
+}
+
+#question-box{
+    margin-top: 10px;
+    width: 350px;
+    height: 40px;
+    border: none;
+    
+}
+
+#question-desc{
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    border: none;
+}
+
+.form-fields-threads{
+    font-size: 1.2rem;
+}
+
+#btn-submit-forum{
+    height: 40px;
+    width: 120px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-style: outset;
+    background: #0066A2;
+    color: white;
+    font-size: 15px;
+    text-shadow: none;
+}

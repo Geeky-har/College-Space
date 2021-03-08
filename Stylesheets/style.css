@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container-home::before{
+    background: url('https://source.unsplash.com/1600x900/?college,study') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#navbar{
+    background: rgb(116, 12, 12);
+    height: 75px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item{
+    list-style: none;
+    padding: 15px 25px;
+    margin: 10px 10px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.item a{
+    color: white;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+/* .navigation li:hover{
+    background: rgb(255, 250, 250);
+    color: #000000;
+    cursor: pointer;
+} */
+
+#esp{
+    float: left;
+    position: fixed;
+    top: 0;
+    margin-left: 0px;
+}
+
+/* .container{
+    margin-top: 100px;
+    border: 2px solid black;
+    height: 500px;
+} */
+
+/* Contact Us form styling */
+
+.container-contact{
+    height: 650px;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(231, 239, 245);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container-contact .form-heading{
+    margin-top: 25px;
+    margin-left: 25px;
+    /* border: 1px solid black; */
+}
+
+.container-contact h1{
+    font-size: 2.3rem;
+}
+
+.container-contact p{
+    margin-top: 10px;
+}
+
+.container-contact .form-body{
+    /* border: 1px solid black; */
+    margin-top: 45px;
+    margin-left: 25px;
+}
+
+.form-fields{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#name-box{
+    margin-top: 10px;
+    width: 350px;
+    height: 30px;
+    border: none;
+}
+
+#email-box{
+    margin-top: 10px;
+    width: 350px;
+    height: 30px;
+    border: none;
+}
+
+#msg-box{
+    margin-top: 10px;
+    width: 350px;
+    height: 120px;
+    border: none;
+}
+
+input:focus, button:focus, textarea:focus{
+    outline: none;
+}
+
+#submit-btn {
+    height: 45px;
+    width: 85px;
+    background: grey;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: rgb(116, 12, 12);
+    color: #ffffff;
+}

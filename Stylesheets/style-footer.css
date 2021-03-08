@@ -1,0 +1,10 @@
+#foo{
+    height: 50px;
+    background: rgb(116, 12, 12);
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}

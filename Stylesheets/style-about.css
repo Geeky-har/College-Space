@@ -1,0 +1,75 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container-about{
+    border: 2px solid black;
+    height: 1200px;
+    margin-top: 85px;
+    display: flex;
+    flex-direction: row;
+    min-height: 1vh;
+}
+
+.container-about .about-list{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-about .about-details{
+    /* border: 2px solid black; */
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 25px;
+    height: 600px;
+    width: 1800px;
+}
+
+.about-us, .why-us, .who-we, .faq{
+    border: 1px solid black;
+    width: 200px;
+    height: 60px;
+    background: rgb(116, 12, 12);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about-us:hover, .why-us:hover, .who-we:hover, .faq:hover{
+    /* background: white; */
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.about-list a:hover{
+    color: yellow;
+}
+
+#details-about-us, #details-why-us{
+    /* border: 2px solid black; */
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 1050px;
+    padding-left: 15px;
+}
+
+h3{
+    color: #0e80a7;
+    font-size: 25px;
+}
+
+#details-about-us, #details-why-us p{
+    font-size: 18px;
+}

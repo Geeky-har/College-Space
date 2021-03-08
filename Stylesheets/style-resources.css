@@ -1,0 +1,64 @@
+.container-resources{
+    /* border: 2px solid black; */
+    min-height: 600px;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.headings{
+    /* border: 2px solid black; */
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#hsub-name, #subject{
+    /* border: 2px solid black; */
+    height: 45px;
+    width: 35%;
+}
+
+#hdiscipline, #discipline{
+    /* border: 2px solid black; */
+    height: 45px;
+    width: 15%;
+}
+
+#hauthor, #author{
+    /* border: 2px solid black; */
+    height: 45px;
+    width: 15%;
+}
+
+#htype, #type{
+    /* border: 2px solid black; */
+    height: 45px;
+    width: 15%;
+}
+
+h5, p{
+    margin: 15px 15px;
+    font-size: 1.1rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+#subject, #author, #discipline, #type{
+    height: 60px;
+    margin-top: 25px;
+}
+
+.resource-items{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+a{
+    text-decoration: none;
+}
